@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.RegistrationSection {
+    padding: 100px 0 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.Wrapper {
+    min-height: 100vh;
+    max-width: 100%;
+    background: #f5f5f5;
+    border: 2px solid #469750;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.header-img{
+    width: 100%;
+    height: auto;
+    background-color: #469750;
+    padding: 15px 0;
+}
+.header-title{
+    padding: 10px 20px;
+}
+.header-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #333333;
+}
+.header-title p, label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #717171;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.form-group{
+    padding: 10px 20px;
+}
+.form-group input{
+    border: 2px solid #469750;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.icon {
+    padding: 15px;
+    background: #469750;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px 0px 30px 50px;
+  }
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 20px;
+    margin: 20px 0;
+    gap: 10px;
+    width: 400px;
+    height: 50px;
+    background: #469750;
+    color: #f5f5f5;
+    border-radius: 3px;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #717171;
+    margin: 20px 0;
+}
+.center{
+    text-align: center;
+}
+.Verification-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.Verification{
+    display: flex;
+    padding: 50px 20px;
+    margin: 0 250px;
+}
+.Verification, .Verify{
+    width: 80px;
+    height: 80px;
+    gap: 15px;
+}
+@media (max-width: 1100px) {
+    .Verification{
+        display: flex;
+        padding: 20px;
+        margin: 10px 100px;
+    }
+    .Verification, .Verify{
+        width: 90px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 1000px) {
+    .Verification{
+        display: flex;
+        padding: 20px;
+        margin: 10px 100px;
+    }
+    .Verification, .Verify{
+        width: 90px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 900px) {
+    .Verification{
+        display: flex;
+        padding: 20px;
+        margin: 10px 50px;
+    }
+    .Verification, .Verify{
+        width: 80px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 800px) {
+    .Verification{
+        display: flex;
+        padding: 20px;
+        margin: 10px 60px;
+    }
+    .Verification, .Verify{
+        width: 70px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 700px) {
+    .Verification{
+        display: flex;
+        padding: 15px;
+        margin: 10px 50px;
+    }
+    .Verification, .Verify{
+        width: 70px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .Verification{
+        display: flex;
+        padding: 15px;
+        margin: 10px 50px;
+    }
+    .Verification, .Verify{
+        width: 60px;
+        height: 80px;
+        gap: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .Verification{
+        display: flex;
+        padding: 15px;
+        margin: 10px 40px;
+    }
+    .Verification, .Verify{
+        width: 50px;
+        height: 80px;
+        gap: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .Verification{
+        display: flex;
+        padding: 0;
+        margin: 10px 8px;
+    }
+    .Verification, .Verify{
+        width: 45px;
+        height: 80px;
+        gap: 8px;
+    }
+}
+.loadingDashboard h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #333333;
+}
+.loading-img {
+    background: #f5f5f5;
+}
